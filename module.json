@@ -1,6 +1,9 @@
 {
   "id": "the-avenger-pf2e-class",
   "title": "The Avenger PF2E Class",
+  "url": "https://github.com/xXParryXx/The-Avenger-PF2E",
+  "manifest": "",
+  "download": "",
   "version": "0.0.1",
   "compatibility": {
     "minimum": "11",
@@ -82,7 +85,7 @@
       "ASSISTANT": "OWNER"
     }
   }
-]
+],
   "packFolders": [
     {
         "name": "The Avenger",
@@ -95,7 +98,7 @@
           "effects"
         ]
     }
-  ]
+  ],
 "flags": {
   "the-avenger-pf2e-class": {
     "pf2e-homebrew": {
