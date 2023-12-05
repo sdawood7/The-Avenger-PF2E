@@ -1,33 +1,6 @@
 {
-  "id": "the-avenger-pf2e-class",
   "title": "The Avenger PF2E Class",
-  "url": "https://github.com/xXParryXx/The-Avenger-PF2E",
-  "manifest": "",
-  "download": "",
-  "version": "0.0.1",
-  "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  },
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
   "description": "This is me(Parry) try of making the avenger class made by Teridax68 from reddit to be usable on foundry i hope this goes well and that i might get permission to publish this maybe",
-  "authors": [
-    {
-      "name": "Teridax68",
-      "url": "https://scribe.pf2.tools/v/9ZyrvQoO-the-avenger"
-    },
-    {
-      "name": "xXParryXx"
-    }
-  ],
   "packs": [
     {
       "name": "class",
@@ -41,51 +14,50 @@
       }
     },
     {
-      "label": "Feats",
+      "name": "class-features",
+      "label": "Class features",
+      "path": "packs/class-features",
       "type": "Item",
-      "name": "feats",
-      "path": "./packs/feats",
       "system": "pf2e",
-      "package": "pf2e-example",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "spells",
+      "label": "Spells",
+      "path": "packs/spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "effects",
+      "label": "Effects",
+      "path": "packs/effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
     }
-  },
-  {
-    "name": "class-features",
-    "label": "Class Features",
-    "path": "packs/class-features",
-    "type": "Item",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
-    }
-  },
-  {
-    "name": "spells",
-    "label": "Spells",
-    "path": "packs/spells",
-    "type": "Item",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
-    }
-  },
-  {
-    "name": "effects",
-    "label": "Effects",
-    "path": "packs/effects",
-    "type": "Item",
-    "system": "pf2e",
-    "ownership": {
-      "PLAYER": "OBSERVER",
-      "ASSISTANT": "OWNER"
-    }
-  }
-],
+  ],
   "packFolders": [
     {
         "name": "The Avenger",
@@ -99,16 +71,33 @@
         ]
     }
   ],
-"flags": {
-  "the-avenger-pf2e-class": {
-    "pf2e-homebrew": {
-      "spellTraits":{
-        "avenger": "Avenger"
-      },
-      "featTraits": {
-        "avenger": "Avenger"
+  "flags": {
+    "the-avenger-pf2e-class": {
+      "pf2e-homebrew": {
+        "featTraits": {
+          "avenger": {
+            "label": "Avenger",
+            "description": "<p>This feat, spell or action is related to the Avenger class.</p>"
+          }
+        }
       }
     }
-  }
-}
+  },
+  "id": "the-avenger-pf2e-class",
+  "manifest": "https://github.com/xXParryXx/The-Avenger-PF2E/blob/main/module.json",
+  "download": "https://github.com/xXParryXx/The-Avenger-PF2E/releases/download/release/Main.zip",
+  "authors": [
+    {
+      "name": "xXParryXx",
+      "discord": "xxparryxx"
+    },
+    {
+      "name": "Teridax68"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "version": "0.1.2"
 }
