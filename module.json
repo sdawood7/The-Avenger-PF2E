@@ -99,8 +99,8 @@
     }
   ],
   "compatibility": {
-    "minimum": "12",
+    "minimum": 12,
     "verified": "13.333"
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }
